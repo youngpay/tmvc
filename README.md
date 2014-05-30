@@ -14,10 +14,10 @@ tmvc 是一个基于 tornado 的 python web 框架，在 tornado 的基础上实
 ####Route
 `routes.py` 为路由文件，这里可以加入自定义路由，默认情况下首页是 `HomeController.index`。
 路由是根据 `/controllers` 里的文件自动生成的，比如这个框架跑起来会自动生成这些：
-|url         |controller.action|
+|url         |controller.action     |
 |------------|----------------------|
-|/home|HomeController.index|
-|/home/index|HomeController.index|
-|/home/about|HomeController.about|
-|/user|UserController.index|
-|/user/index|UserController.index|
+|/home       |HomeController.index  |
+|/home/index |HomeController.index  |
+|/home/about |HomeController.about  |
+|/user       |UserController.index  |
+|/user/index |UserController.index  |
